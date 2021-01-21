@@ -49,8 +49,8 @@ def file(filename):
 # MASK-RCNN STUFF
 models = {}
 os.chdir("cabbage/api/")
-# for mod in {"mobile36.h5","aboModel.h5", "model.h5"}: #, "applesModel.h5", "bananasModel.h5", "orangesModel.h5"}:
-#     models[mod] = load_model(mod)
+for mod in {"mobile36.h5","aboModel.h5", "model.h5"}: #, "applesModel.h5", "bananasModel.h5", "orangesModel.h5"}:
+    models[mod] = load_model(mod)
 
 fruits = ["apple","banana","orange"]
 
