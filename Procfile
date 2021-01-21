@@ -1,0 +1,1 @@
+web: GUNICORN_CMD_ARGS="--graceful-timeout 300 --workers=3" wsgi:app
